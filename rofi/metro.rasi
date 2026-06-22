@@ -1,0 +1,51 @@
+configuration {
+    show-icons: false;
+    display-drun: "Run:";
+    drun-display-format: "{name}";
+}
+
+* {
+    background-color: #2d0a0a;
+    text-color: #dcd488;
+    font: "Terminess Nerd Font 12";
+}
+
+window {
+    width: 600px;
+    height: 400px;
+    border: 3;
+    border-color: #dcd488;
+    padding: 10px;
+}
+
+inputbar {
+    padding: 10px;
+    border: 0 0 2 0;
+    border-color: #dcd488;
+    children: [prompt, entry];
+}
+
+listview {
+    columns: 1;
+    lines: 10;
+    scrollbar: true;
+    spacing: 5px;
+}
+
+scrollbar {
+    width: 8;
+    background-color: #dcd488;
+    handle-color: #dcd488;
+}
+
+element {
+    padding: 5px;
+    border: 0 0 1 0;
+    border-color: #4a1010;
+}
+
+element selected {
+    background-color: #dcd488;
+    text-color: #2d0a0a;
+    font: "Terminess Nerd Font Bold 12";
+}

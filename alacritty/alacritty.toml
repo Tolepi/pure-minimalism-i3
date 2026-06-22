@@ -1,0 +1,46 @@
+[window]
+padding = { x = 12, y = 12 }
+opacity = 0.95
+blur = true
+decorations = "None"
+
+[font]
+normal = { family = "Terminess Nerd Font", style = "Regular" }
+bold = { family = "Terminess Nerd Font", style = "Bold" }
+size = 12
+
+[cursor]
+style = { shape = "Block", blinking = "Always" }
+unfocused_hollow = true
+
+[colors.primary]
+background = "#000000"
+foreground = "#e6e6e6"
+
+[colors.cursor]
+text = "#0d0d0d"
+cursor = "#ffffff"
+
+[colors.selection]
+text = "CellForeground"
+background = "#333333"
+
+[colors.normal]
+black   = "#1a1a1a"
+red     = "#f2f2f2"
+green   = "#e6e6e6"
+yellow  = "#cccccc"
+blue    = "#b3b3b3"
+magenta = "#999999"
+cyan    = "#808080"
+white   = "#ffffff"
+
+[colors.bright]
+black   = "#4d4d4d"
+red     = "#ffffff"
+green   = "#ffffff"
+yellow  = "#ffffff"
+blue    = "#ffffff"
+magenta = "#ffffff"
+cyan    = "#ffffff"
+white   = "#ffffff"

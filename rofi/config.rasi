@@ -1,0 +1,10 @@
+configuration {
+    modi: "drun,run";
+    show-icons: false;
+    terminal: "alacritty";
+    drun-display-format: "{name}";
+    disable-history: false;
+    hide-scrollbar: true;
+}
+
+@theme "~/.config/rofi/zero.rasi"

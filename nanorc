@@ -1,0 +1,16 @@
+# ~/.nanorc
+
+# Eliminar todos los colores de sintaxis (esto hace que todo sea del color por defecto)
+# Al quitar los 'include', nano solo usará el color 'foreground' de tu terminal.
+
+# Interfaz ultra minimalista
+set linenumbers    # Números de línea (opcional)
+set nohelp         # Quitar la barra de ayuda de abajo
+set tabsize 4
+set tabstospaces
+
+# Colores fijos (blanco sobre negro)
+# Esto obliga a que la interfaz use tus colores de terminal
+set titlecolor white,black
+set statuscolor white,black
+set errorcolor white,red
